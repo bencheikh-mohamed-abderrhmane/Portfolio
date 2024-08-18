@@ -1,0 +1,66 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Full Stack</h2>
+		<p>Full Stack Developer with expertise in both frontend and backend technologies. Experienced in building responsive web applications, integrating databases, and ensuring seamless user experiences across the entire development process. Proficient in modern frameworks like React and Node.js.</p>
+
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Team Player</h2>
+		<p>As a dedicated Team Player and Full Stack JavaScript Developer, I thrive in collaborative environments where creativity and teamwork lead to success. With strong skills in Node.js, React.js, and MongoDB, I contribute effectively to every stage of the development process, ensuring seamless integration and optimal performance. My ability to communicate clearly, listen actively, and support my colleagues makes me an invaluable member of any team. I am committed to achieving collective goals and fostering a positive, productive working atmosphere where everyone can excel
+
+.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Strategy-Minded</h2>
+		<p>As a versatile Full Stack JavaScript Developer, I bring a strategic mindset to every project, from conceptualization to execution. With expertise in Node.js, React.js, and MongoDB, I create efficient, scalable solutions that drive user engagement and business growth. My passion for technology is matched by a commitment to continuous learning and a keen ability to anticipate industry trends. Whether working on dynamic web applications, e-commerce platforms, or innovative APIs, I consistently deliver high-quality results that align with long-term objectives.</p>
+
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
