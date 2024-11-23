@@ -6,9 +6,9 @@ img_alt: game heaven
 description: |
  I created a functional and responsive website that contains multiple video game catalogs (men, women, children) where users can add the desired games to their cart or wishlist for purchase. The selected games are saved using the back-end
 tags:
-  - Front-End
-  - Back-End
-  - Admin
+  - React Js
+  - Node Js
+  - MongoDB
 ---
 
 ## About The Project
