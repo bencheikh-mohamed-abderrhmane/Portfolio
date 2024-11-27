@@ -1,6 +1,6 @@
 ---
 title: Abdou Chat
-publishDate: 2019-9-02 00:00:00
+publishDate: 2019-9-01 00:00:00
 img: /assets/stock-5.jpg
 img_alt: Abdou Chat
 description: |
